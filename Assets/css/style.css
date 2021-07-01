@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+.conteiner{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 400px;   
+
+}
+img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+  
+  
+}
+p{
+    color: grey;
+}
+p span{
+    background-color: blue;
+    color: white;
+}
+.same{
+    display: flex;
+    margin: 15px;
+}
+.same:not(:last-child){
+    border-bottom: 1px solid grey;
+}
+
+
+.content{
+    margin: 15px;
+   
+}
